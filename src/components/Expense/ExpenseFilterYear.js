@@ -8,6 +8,7 @@ const ExpenseFilterYear = (props)=>{
     return (
         <div>
             <div>
+                <label>Filterd by Year</label>
                 <select value={props.onSelect} onChange={dropDownYear}>
                     <option value="2019">2019</option>
                     <option value="2020">2020</option>
