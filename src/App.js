@@ -24,9 +24,13 @@ function App() {
     }
   ]
 
+  const addExpenses = (events)=> {
+    console.log(events)
+  }
+
   return (
     <div>
-      <NewExpenses></NewExpenses>
+      <NewExpenses onAddExpense={addExpenses}></NewExpenses>
       <Expenses items={expense}></Expenses>
 
     </div>
