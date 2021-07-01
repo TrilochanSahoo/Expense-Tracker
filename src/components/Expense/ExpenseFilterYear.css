@@ -1,0 +1,26 @@
+.expenseFilter{
+    color: white;
+    padding: 0 1rem;
+}
+
+.expenseFilterContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.expenseFilter label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.expenseFilter select{
+    font: inherit;
+    padding: 0.5rem 3rem;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 0.2rem;
+    border: 0;
+}

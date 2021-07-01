@@ -20,8 +20,14 @@ const demoExpense = [
     id: '3',
     title: 'education',
     amount: 10000,
-    date: new Date(2020, 6, 14)
-  }
+    date: new Date(2019, 2, 14)
+  },
+  {
+    id: '4',
+    title: 'Recharge',
+    amount: 999,
+    date: new Date(2020, 8, 8)
+  },
 ]
 
 function App() {

@@ -5,3 +5,9 @@
     width: 50rem;
     max-width: 95%;
 }
+
+.noExpenseItem{
+    margin: 1.5rem auto;
+    color: white;
+    text-align: center;
+}

@@ -34,13 +34,23 @@ const ExpenseForm = (props)=>{
     }
     return (
         <form onSubmit={submitHandler}>
-            <div>
-                <input type="text" placeholder="enter item name" value={item} onChange={changeNameHandler}></input>
-                <input type="number" min='1' step="1" placeholder="enter amount" value={amount} onChange={changeAmountHandler}></input>
-                <input type="date" min='2019-01-01' max='2022-12-31' value={date} onChange={changeDateHandler}></input>
+            <div className="newExpenseContainer">
+                <div className="newContainer">
+                    <label>Title</label>
+                    <input type="text" placeholder="Enter item name" value={item} onChange={changeNameHandler}></input>
+                </div>
+                <div className="newContainer">
+                    <label>Amount</label>
+                    <input type="number" min='1' step="1" placeholder="Enter Amount" value={amount} onChange={changeAmountHandler}></input>
+                </div>
+                <div className="newContainer">
+                    <label>Date</label>
+                    <input type="date" min='2019-01-01' max='2022-12-31' value={date} onChange={changeDateHandler}></input>
+                </div>
             </div>
-            <div>
-                <button>Submit</button>
+            <div className="newExpenseButton">
+                <button type="button" onClick={props.onCancel}>Cancel</button>
+                <button type="submit">Submit</button>
             </div>
         </form>
     )

@@ -16,7 +16,7 @@ const Expenses = (props)=>{
         return expense.date.getFullYear().toString()===filterYear
     })
 
-    let content = <p>No item found. Want to add click on the add button...</p>
+    let content = <h3 className='noExpenseItem'>No item found. Want to add click on the add button...</h3>
 
     if(filterExpense.length>0){
         content = filterExpense.map((item)=>
