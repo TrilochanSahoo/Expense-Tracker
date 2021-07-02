@@ -1,5 +1,8 @@
 .newExpense{
-    background-color: #a892ee;
+    /* background-color: #a892ee; */
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(2px);
+    position: relative;
     padding: 1rem;
     margin: 2rem auto;
     width: 50rem;
@@ -7,7 +10,6 @@
     text-align: center;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
-    backdrop-filter: blur(5px);
 }
 
 .newExpense button{

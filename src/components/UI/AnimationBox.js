@@ -9,6 +9,7 @@ const AnimationBox = ()=>{
             <div className='square' style={{"--i":"2"}}></div>
             <div className='square' style={{"--i":"3"}}></div>
             <div className='square' style={{"--i":"4"}}></div>
+            <div className='square' style={{"--i":"5"}}></div>
         </div>
     )
 }
