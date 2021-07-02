@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import './App.css';
 import Expenses from './components/Expense/Expenses';
 import NewExpenses from './components/newExpense/NewExpenses';
-import AnimationBox from './components/UI/AnimationBox';
+// import AnimationBox from './components/UI/AnimationBox';
+import Animation from './components/UI/Animation';
 
 const demoExpense = [
   {
@@ -41,7 +42,8 @@ function App() {
   return (
     <div>
       <div>
-        <AnimationBox></AnimationBox>
+        {/* <AnimationBox></AnimationBox> */}
+        <Animation></Animation>
       </div>
       <div>
         <NewExpenses onAddExpense={addExpenses}></NewExpenses>
