@@ -1,7 +1,7 @@
 .newExpense{
     /* background-color: #a892ee; */
     background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(6px);
     position: relative;
     padding: 1rem;
     margin: 2rem auto;
@@ -14,23 +14,25 @@
 
 .newExpense button{
     font: inherit;
+    font-weight: bold;
     cursor: pointer;
     padding: 1rem 2rem;
-    border: 1px solid #40005d;
-    background-color: #40005d;
-    color: white;
+    border: 1px solid #10253b;
+    background-color: white;
+    color: #10253b;
     border-radius: 12px;
     margin-right: 1rem;
 }
 
 .newExpense button:hover,
 .newExpense button:active {
-  background-color: #510674;
-  border-color: #510674;
+  background-color: #10253b;
+  border-color: #10253b;
+  color: white;
 }
 
 .newExpense button.alternative {
-  color: #220131;
+  color: white;
   border-color: transparent;
   background-color: transparent;
 }

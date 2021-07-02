@@ -7,6 +7,8 @@ const Animation = ()=>{
         <section>
             <div className="color"></div>
             <div className="color"></div>
+            <div className="color"></div>
+            <div className="color"></div>
             <AnimationBox></AnimationBox>
         </section>
     )
