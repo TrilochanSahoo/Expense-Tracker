@@ -8,8 +8,7 @@ body {
   min-width: auto;
   background: linear-gradient(-30deg, #54108b, #9e74ee, #ffafff, #dabdff);
   background-repeat: no-repeat;
-  /* background-size: cover; */
-
+  
 }
 
 code {
